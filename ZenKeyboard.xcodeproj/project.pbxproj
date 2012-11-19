@@ -13,11 +13,12 @@
 		0A39F388165A5D970087FCB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A39F386165A5D970087FCB8 /* InfoPlist.strings */; };
 		0A39F38A165A5D970087FCB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A39F389165A5D970087FCB8 /* main.m */; };
 		0A39F38E165A5D970087FCB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A39F38D165A5D970087FCB8 /* AppDelegate.m */; };
-		0A39F390165A5D970087FCB8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A39F38F165A5D970087FCB8 /* Default.png */; };
-		0A39F392165A5D970087FCB8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A39F391165A5D970087FCB8 /* Default@2x.png */; };
-		0A39F394165A5D970087FCB8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A39F393165A5D970087FCB8 /* Default-568h@2x.png */; };
 		0A39F397165A5D970087FCB8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A39F395165A5D970087FCB8 /* MainStoryboard.storyboard */; };
 		0AB6D347165A75D200712983 /* ZenKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6D346165A75D200712983 /* ZenKeyboardView.m */; };
+		0AB6D34C165A78A900712983 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB6D348165A78A900712983 /* Default-568h@2x.png */; };
+		0AB6D34D165A78A900712983 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB6D349165A78A900712983 /* Default.png */; };
+		0AB6D34E165A78A900712983 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB6D34A165A78A900712983 /* Default@2x.png */; };
+		0AB6D34F165A78A900712983 /* Snapshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB6D34B165A78A900712983 /* Snapshot.png */; };
 		0ADB4753165A682300D0886B /* KeyboardBackgroundTextured.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB4749165A682300D0886B /* KeyboardBackgroundTextured.png */; };
 		0ADB4754165A682300D0886B /* KeyboardBackgroundTextured@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB474A165A682300D0886B /* KeyboardBackgroundTextured@2x.png */; };
 		0ADB4755165A682300D0886B /* KeyboardNumericEntryKeyBackspaceGlyphTextured.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB474B165A682300D0886B /* KeyboardNumericEntryKeyBackspaceGlyphTextured.png */; };
@@ -45,12 +46,13 @@
 		0A39F38B165A5D970087FCB8 /* ZenKeyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZenKeyboard-Prefix.pch"; sourceTree = "<group>"; };
 		0A39F38C165A5D970087FCB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A39F38D165A5D970087FCB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0A39F38F165A5D970087FCB8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		0A39F391165A5D970087FCB8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		0A39F393165A5D970087FCB8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0A39F396165A5D970087FCB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0AB6D345165A75D200712983 /* ZenKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenKeyboardView.h; sourceTree = "<group>"; };
 		0AB6D346165A75D200712983 /* ZenKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenKeyboardView.m; sourceTree = "<group>"; };
+		0AB6D348165A78A900712983 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0AB6D349165A78A900712983 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0AB6D34A165A78A900712983 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0AB6D34B165A78A900712983 /* Snapshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snapshot.png; sourceTree = "<group>"; };
 		0ADB4749165A682300D0886B /* KeyboardBackgroundTextured.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyboardBackgroundTextured.png; sourceTree = "<group>"; };
 		0ADB474A165A682300D0886B /* KeyboardBackgroundTextured@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyboardBackgroundTextured@2x.png"; sourceTree = "<group>"; };
 		0ADB474B165A682300D0886B /* KeyboardNumericEntryKeyBackspaceGlyphTextured.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyboardNumericEntryKeyBackspaceGlyphTextured.png; sourceTree = "<group>"; };
@@ -132,9 +134,6 @@
 				0A39F386165A5D970087FCB8 /* InfoPlist.strings */,
 				0A39F389165A5D970087FCB8 /* main.m */,
 				0A39F38B165A5D970087FCB8 /* ZenKeyboard-Prefix.pch */,
-				0A39F38F165A5D970087FCB8 /* Default.png */,
-				0A39F391165A5D970087FCB8 /* Default@2x.png */,
-				0A39F393165A5D970087FCB8 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -152,6 +151,9 @@
 			isa = PBXGroup;
 			children = (
 				0ADB4762165A68F700D0886B /* BackgroundTexture@2x.png */,
+				0AB6D348165A78A900712983 /* Default-568h@2x.png */,
+				0AB6D349165A78A900712983 /* Default.png */,
+				0AB6D34A165A78A900712983 /* Default@2x.png */,
 				0ADB4749165A682300D0886B /* KeyboardBackgroundTextured.png */,
 				0ADB474A165A682300D0886B /* KeyboardBackgroundTextured@2x.png */,
 				0ADB474B165A682300D0886B /* KeyboardNumericEntryKeyBackspaceGlyphTextured.png */,
@@ -164,6 +166,7 @@
 				0ADB4752165A682300D0886B /* KeyboardNumericEntryViewGridLinesTextured@2x.png */,
 				0ADB476D165A6C2A00D0886B /* KeyboardTopShadow.png */,
 				0ADB476C165A6C2A00D0886B /* KeyboardTopShadow@2x.png */,
+				0AB6D34B165A78A900712983 /* Snapshot.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -246,9 +249,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A39F388165A5D970087FCB8 /* InfoPlist.strings in Resources */,
-				0A39F390165A5D970087FCB8 /* Default.png in Resources */,
-				0A39F392165A5D970087FCB8 /* Default@2x.png in Resources */,
-				0A39F394165A5D970087FCB8 /* Default-568h@2x.png in Resources */,
 				0A39F397165A5D970087FCB8 /* MainStoryboard.storyboard in Resources */,
 				0ADB4753165A682300D0886B /* KeyboardBackgroundTextured.png in Resources */,
 				0ADB4754165A682300D0886B /* KeyboardBackgroundTextured@2x.png in Resources */,
@@ -263,6 +263,10 @@
 				0ADB4763165A68F700D0886B /* BackgroundTexture@2x.png in Resources */,
 				0ADB476E165A6C2B00D0886B /* KeyboardTopShadow@2x.png in Resources */,
 				0ADB476F165A6C2B00D0886B /* KeyboardTopShadow.png in Resources */,
+				0AB6D34C165A78A900712983 /* Default-568h@2x.png in Resources */,
+				0AB6D34D165A78A900712983 /* Default.png in Resources */,
+				0AB6D34E165A78A900712983 /* Default@2x.png in Resources */,
+				0AB6D34F165A78A900712983 /* Snapshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
