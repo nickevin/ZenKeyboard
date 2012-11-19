@@ -8,11 +8,12 @@ NZKeyboard is a custom iOS numeric keyboard, it's just like Square Register app.
 
 First you have to import the class:
 
-  #import "ZenKeyboardView.h"
+	#import "ZenKeyboardView.h"
 	
 then simply use:
-    ZenKeyboardView *keyboardView = [[ZenKeyboardView alloc] initWithFrame:CGRectMake(0, 0, 320, 216)];
-    keyboardView.delegate = self;
+	
+	ZenKeyboardView *keyboardView = [[ZenKeyboardView alloc] initWithFrame:CGRectMake(0, 0, 320, 216)];
+	keyboardView.delegate = self;
   
 see the demo for more detailed examples
 
