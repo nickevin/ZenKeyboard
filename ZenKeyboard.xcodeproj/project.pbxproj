@@ -19,20 +19,15 @@
 		0AB6D34D165A78A900712983 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB6D349165A78A900712983 /* Default.png */; };
 		0AB6D34E165A78A900712983 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB6D34A165A78A900712983 /* Default@2x.png */; };
 		0AB6D34F165A78A900712983 /* Snapshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB6D34B165A78A900712983 /* Snapshot.png */; };
-		0ADB4753165A682300D0886B /* KeyboardBackgroundTextured.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB4749165A682300D0886B /* KeyboardBackgroundTextured.png */; };
 		0ADB4754165A682300D0886B /* KeyboardBackgroundTextured@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB474A165A682300D0886B /* KeyboardBackgroundTextured@2x.png */; };
-		0ADB4755165A682300D0886B /* KeyboardNumericEntryKeyBackspaceGlyphTextured.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB474B165A682300D0886B /* KeyboardNumericEntryKeyBackspaceGlyphTextured.png */; };
 		0ADB4756165A682300D0886B /* KeyboardNumericEntryKeyBackspaceGlyphTextured@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB474C165A682300D0886B /* KeyboardNumericEntryKeyBackspaceGlyphTextured@2x.png */; };
-		0ADB4757165A682300D0886B /* KeyboardNumericEntryKeyPressedTextured.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB474D165A682300D0886B /* KeyboardNumericEntryKeyPressedTextured.png */; };
 		0ADB4758165A682300D0886B /* KeyboardNumericEntryKeyPressedTextured@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB474E165A682300D0886B /* KeyboardNumericEntryKeyPressedTextured@2x.png */; };
-		0ADB4759165A682300D0886B /* KeyboardNumericEntryKeyTextured.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB474F165A682300D0886B /* KeyboardNumericEntryKeyTextured.png */; };
 		0ADB475A165A682300D0886B /* KeyboardNumericEntryKeyTextured@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB4750165A682300D0886B /* KeyboardNumericEntryKeyTextured@2x.png */; };
-		0ADB475B165A682300D0886B /* KeyboardNumericEntryViewGridLinesTextured.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB4751165A682300D0886B /* KeyboardNumericEntryViewGridLinesTextured.png */; };
 		0ADB475C165A682300D0886B /* KeyboardNumericEntryViewGridLinesTextured@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB4752165A682300D0886B /* KeyboardNumericEntryViewGridLinesTextured@2x.png */; };
 		0ADB4763165A68F700D0886B /* BackgroundTexture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB4762165A68F700D0886B /* BackgroundTexture@2x.png */; };
 		0ADB476E165A6C2B00D0886B /* KeyboardTopShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB476C165A6C2A00D0886B /* KeyboardTopShadow@2x.png */; };
-		0ADB476F165A6C2B00D0886B /* KeyboardTopShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB476D165A6C2A00D0886B /* KeyboardTopShadow.png */; };
 		0AF8574D165A60B200A8E44F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8573E165A60B200A8E44F /* MainViewController.m */; };
+		0AFF6AF41663AD2D0085A9CD /* GenericSeparator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFF6AF31663AD2D0085A9CD /* GenericSeparator@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,22 +48,17 @@
 		0AB6D349165A78A900712983 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0AB6D34A165A78A900712983 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0AB6D34B165A78A900712983 /* Snapshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snapshot.png; sourceTree = "<group>"; };
-		0ADB4749165A682300D0886B /* KeyboardBackgroundTextured.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyboardBackgroundTextured.png; sourceTree = "<group>"; };
 		0ADB474A165A682300D0886B /* KeyboardBackgroundTextured@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyboardBackgroundTextured@2x.png"; sourceTree = "<group>"; };
-		0ADB474B165A682300D0886B /* KeyboardNumericEntryKeyBackspaceGlyphTextured.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyboardNumericEntryKeyBackspaceGlyphTextured.png; sourceTree = "<group>"; };
 		0ADB474C165A682300D0886B /* KeyboardNumericEntryKeyBackspaceGlyphTextured@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyboardNumericEntryKeyBackspaceGlyphTextured@2x.png"; sourceTree = "<group>"; };
-		0ADB474D165A682300D0886B /* KeyboardNumericEntryKeyPressedTextured.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyboardNumericEntryKeyPressedTextured.png; sourceTree = "<group>"; };
 		0ADB474E165A682300D0886B /* KeyboardNumericEntryKeyPressedTextured@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyboardNumericEntryKeyPressedTextured@2x.png"; sourceTree = "<group>"; };
-		0ADB474F165A682300D0886B /* KeyboardNumericEntryKeyTextured.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyboardNumericEntryKeyTextured.png; sourceTree = "<group>"; };
 		0ADB4750165A682300D0886B /* KeyboardNumericEntryKeyTextured@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyboardNumericEntryKeyTextured@2x.png"; sourceTree = "<group>"; };
-		0ADB4751165A682300D0886B /* KeyboardNumericEntryViewGridLinesTextured.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyboardNumericEntryViewGridLinesTextured.png; sourceTree = "<group>"; };
 		0ADB4752165A682300D0886B /* KeyboardNumericEntryViewGridLinesTextured@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyboardNumericEntryViewGridLinesTextured@2x.png"; sourceTree = "<group>"; };
 		0ADB4762165A68F700D0886B /* BackgroundTexture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackgroundTexture@2x.png"; sourceTree = "<group>"; };
 		0ADB476C165A6C2A00D0886B /* KeyboardTopShadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyboardTopShadow@2x.png"; sourceTree = "<group>"; };
-		0ADB476D165A6C2A00D0886B /* KeyboardTopShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyboardTopShadow.png; sourceTree = "<group>"; };
 		0AF8573D165A60B200A8E44F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		0AF8573E165A60B200A8E44F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		0AF8575B165A61AE00A8E44F /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		0AFF6AF31663AD2D0085A9CD /* GenericSeparator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GenericSeparator@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,17 +144,12 @@
 				0AB6D348165A78A900712983 /* Default-568h@2x.png */,
 				0AB6D349165A78A900712983 /* Default.png */,
 				0AB6D34A165A78A900712983 /* Default@2x.png */,
-				0ADB4749165A682300D0886B /* KeyboardBackgroundTextured.png */,
+				0AFF6AF31663AD2D0085A9CD /* GenericSeparator@2x.png */,
 				0ADB474A165A682300D0886B /* KeyboardBackgroundTextured@2x.png */,
-				0ADB474B165A682300D0886B /* KeyboardNumericEntryKeyBackspaceGlyphTextured.png */,
 				0ADB474C165A682300D0886B /* KeyboardNumericEntryKeyBackspaceGlyphTextured@2x.png */,
-				0ADB474D165A682300D0886B /* KeyboardNumericEntryKeyPressedTextured.png */,
 				0ADB474E165A682300D0886B /* KeyboardNumericEntryKeyPressedTextured@2x.png */,
-				0ADB474F165A682300D0886B /* KeyboardNumericEntryKeyTextured.png */,
 				0ADB4750165A682300D0886B /* KeyboardNumericEntryKeyTextured@2x.png */,
-				0ADB4751165A682300D0886B /* KeyboardNumericEntryViewGridLinesTextured.png */,
 				0ADB4752165A682300D0886B /* KeyboardNumericEntryViewGridLinesTextured@2x.png */,
-				0ADB476D165A6C2A00D0886B /* KeyboardTopShadow.png */,
 				0ADB476C165A6C2A00D0886B /* KeyboardTopShadow@2x.png */,
 				0AB6D34B165A78A900712983 /* Snapshot.png */,
 			);
@@ -250,23 +235,18 @@
 			files = (
 				0A39F388165A5D970087FCB8 /* InfoPlist.strings in Resources */,
 				0A39F397165A5D970087FCB8 /* MainStoryboard.storyboard in Resources */,
-				0ADB4753165A682300D0886B /* KeyboardBackgroundTextured.png in Resources */,
 				0ADB4754165A682300D0886B /* KeyboardBackgroundTextured@2x.png in Resources */,
-				0ADB4755165A682300D0886B /* KeyboardNumericEntryKeyBackspaceGlyphTextured.png in Resources */,
 				0ADB4756165A682300D0886B /* KeyboardNumericEntryKeyBackspaceGlyphTextured@2x.png in Resources */,
-				0ADB4757165A682300D0886B /* KeyboardNumericEntryKeyPressedTextured.png in Resources */,
 				0ADB4758165A682300D0886B /* KeyboardNumericEntryKeyPressedTextured@2x.png in Resources */,
-				0ADB4759165A682300D0886B /* KeyboardNumericEntryKeyTextured.png in Resources */,
 				0ADB475A165A682300D0886B /* KeyboardNumericEntryKeyTextured@2x.png in Resources */,
-				0ADB475B165A682300D0886B /* KeyboardNumericEntryViewGridLinesTextured.png in Resources */,
 				0ADB475C165A682300D0886B /* KeyboardNumericEntryViewGridLinesTextured@2x.png in Resources */,
 				0ADB4763165A68F700D0886B /* BackgroundTexture@2x.png in Resources */,
 				0ADB476E165A6C2B00D0886B /* KeyboardTopShadow@2x.png in Resources */,
-				0ADB476F165A6C2B00D0886B /* KeyboardTopShadow.png in Resources */,
 				0AB6D34C165A78A900712983 /* Default-568h@2x.png in Resources */,
 				0AB6D34D165A78A900712983 /* Default.png in Resources */,
 				0AB6D34E165A78A900712983 /* Default@2x.png in Resources */,
 				0AB6D34F165A78A900712983 /* Snapshot.png in Resources */,
+				0AFF6AF41663AD2D0085A9CD /* GenericSeparator@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

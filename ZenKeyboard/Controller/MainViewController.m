@@ -21,49 +21,70 @@
     [self setUI];
 }
 
-- (void)setUI {
-    CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
-    
+- (void)setUI {    
     UIImage * backgroundImage = [UIImage imageNamed:@"BackgroundTexture"];
-    UIImageView *backgroundView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, screenHeight)];
-    backgroundView.backgroundColor = [UIColor colorWithPatternImage:backgroundImage];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:backgroundImage];
     
-    _keyboardView = [[ZenKeyboardView alloc] initWithFrame:CGRectMake(0, 0, 320, 216)];
-    _keyboardView.delegate = self;
+    UIImage *separator = [UIImage imageNamed:@"GenericSeparator"];
+    UIImageView *separatorLine = [[UIImageView alloc] initWithFrame:CGRectMake(0, 70, 320, 2)];
+    separatorLine.image = separator;
     
-    _tfIncome = [[UITextField alloc] initWithFrame:CGRectMake(15, 5, 290, 60)];
+    UIImageView *separatorLine2 = [[UIImageView alloc] initWithFrame:CGRectMake(0, 140, 320, 2)];
+    separatorLine2.image = separator;
+    
+    UILabel *incomeTitle = [[UILabel alloc] initWithFrame:CGRectMake(15, 36, 80, 30)];
+    incomeTitle.font = [UIFont fontWithName:HEITI_SC_MEDIUM size:20.0f];
+    incomeTitle.text = @"Income";
+    incomeTitle.textColor = RGB(104, 114, 121);
+    incomeTitle.shadowColor = [UIColor whiteColor];
+    incomeTitle.shadowOffset = CGSizeMake(0, 1);
+    incomeTitle.backgroundColor = [UIColor clearColor];
+    
+    _tfIncome = [[UITextField alloc] initWithFrame:CGRectMake(100, 5, 200, 60)];
     [_tfIncome setFont:[UIFont fontWithName:@"HelveticaNeue-Light" size:55.0f]];
     _tfIncome.textColor = RGB(104, 114, 121);
+    //    _tfIncome.backgroundColor = [UIColor lightGrayColor];
     _tfIncome.textAlignment = UITextAlignmentRight;
     _tfIncome.adjustsFontSizeToFitWidth = YES;
-    _tfIncome.text = @"8900.00";
-    _tfIncome.inputView = _keyboardView;
+    //    _tfIncome.clearButtonMode = UITpextFieldViewModeWhileEditing;
+    //    _tfIncome.leftView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"TotalAmount"]];
+    //    _tfIncome.leftViewMode = UITextFieldViewModeAlways;
+    _tfIncome.text = @"0.00";
+    //    _tfIncome.keyboardType = UIKeyboardTypeDecimalPad;
+
+    UILabel *expenceTitle = [[UILabel alloc] initWithFrame:CGRectMake(15, 106, 100, 30)];
+    expenceTitle.font = [UIFont fontWithName:HEITI_SC_MEDIUM size:20.0f];
+    expenceTitle.text = @"Expence";
+    expenceTitle.textColor = RGB(104, 114, 121);
+    expenceTitle.shadowColor = [UIColor whiteColor];
+    expenceTitle.shadowOffset = CGSizeMake(0, 1);
+    expenceTitle.backgroundColor = [UIColor clearColor];
     
-    [self.view addSubview:backgroundView];
+    _tfExpence = [[UITextField alloc] initWithFrame:CGRectMake(100, 75, 200, 60)];
+    [_tfExpence setFont:[UIFont fontWithName:@"HelveticaNeue-Light" size:55.0f]];
+    _tfExpence.textColor = RGB(104, 114, 121);
+    _tfExpence.textAlignment = UITextAlignmentRight;
+    _tfExpence.adjustsFontSizeToFitWidth = YES;
+    _tfExpence.text = @"0.00";
+    
+    _keyboardView = [[ZenKeyboardView alloc] initWithFrame:CGRectMake(0, 0, 320, 216)];
+    _keyboardView.textField = _tfIncome;
+    
+    _keyboardView = [[ZenKeyboardView alloc] initWithFrame:CGRectMake(0, 0, 320, 216)];
+    _keyboardView.textField = _tfExpence;
+    
+    [self.view addSubview:separatorLine];
+    [self.view addSubview:separatorLine2];
+    [self.view addSubview:incomeTitle];
     [self.view addSubview:_tfIncome];
+    [self.view addSubview:expenceTitle];
+    [self.view addSubview:_tfExpence];
+
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     [_tfIncome becomeFirstResponder];
-}
-
-#pragma mark - ZenKeyboardViewDelegate
-
-- (void)didNumericKeyPressed:(UIButton *)button {
-    _tfIncome.text = [NSString stringWithFormat:@"%@%@", _tfIncome.text, button.titleLabel.text];
-}
-
-- (void)didBackspaceKeyPressed {
-    NSInteger length = _tfIncome.text.length;
-    if (length == 0) {
-        _tfIncome.text = @"";
-        
-        return;
-    }
-    
-    NSString *substring = [_tfIncome.text substringWithRange:NSMakeRange(0, length - 1)];
-    _tfIncome.text = substring;
 }
 
 - (void)didReceiveMemoryWarning

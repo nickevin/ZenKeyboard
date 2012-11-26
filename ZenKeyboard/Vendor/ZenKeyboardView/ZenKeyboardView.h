@@ -13,13 +13,13 @@
 
 @protocol ZenKeyboardViewDelegate <NSObject>
 
-- (void)didNumericKeyPressed:(UIButton *)button;
-- (void)didBackspaceKeyPressed;
+- (void)numericKeyDidPressed:(int)key;
+- (void)backspaceKeyDidPressed;
 
 @end
 
 @interface ZenKeyboardView : UIView
 
-@property(nonatomic, assign) id<ZenKeyboardViewDelegate> delegate;
+@property (nonatomic, assign) UITextField *textField;
 
 @end

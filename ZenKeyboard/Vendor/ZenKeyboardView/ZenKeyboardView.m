@@ -8,6 +8,12 @@
 
 #import "ZenKeyboardView.h"
 
+@interface ZenKeyboardView()
+
+@property (nonatomic,assign) id<UITextInput> textInputDelegate;
+
+@end;
+
 @implementation ZenKeyboardView
 
 - (id)initWithFrame:(CGRect)frame
@@ -15,9 +21,7 @@
     self = [super initWithFrame:frame]; 
     if (self) {        
         UIImageView *keyboardBackground = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"KeyboardBackgroundTextured"]];
-        
         UIImageView *keyboardGridLines = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"KeyboardNumericEntryViewGridLinesTextured"]];
-        
         UIImageView *keyboardShadow = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"KeyboardTopShadow"]];
         
         [self addSubview:keyboardBackground];
@@ -81,12 +85,54 @@
     return button;
 }
 
+- (void)setTextField:(UITextField *)textField {
+    _textField = textField;
+    _textField.inputView = self;
+    self.textInputDelegate = _textField;
+}
+
 - (void)pressNumericKey:(UIButton *)button {
-    [self.delegate didNumericKeyPressed:button];
+    NSString *keyText = button.titleLabel.text;
+    int key = -1;
+    
+    if ([@"." isEqualToString:keyText]) {
+        key = 10;
+    } else {
+        key = [keyText intValue];
+    }
+        
+    NSRange dot = [_textField.text rangeOfString:@"."];
+    
+    switch (key) {
+        case 10:
+            if (dot.location == NSNotFound && _textField.text.length == 0) {                
+                [self.textInputDelegate insertText:@"0."];
+            } else if (dot.location == NSNotFound) {
+                [self.textInputDelegate insertText:@"."];
+            }
+            
+            break;
+        default:
+            if (kMaxNumber <= [[NSString stringWithFormat:@"%@%d", _textField.text, key] doubleValue]) {
+                _textField.text = [NSString stringWithFormat:@"%d", kMaxNumber];
+            } else if ([@"0.00" isEqualToString:_textField.text]) {
+                _textField.text = [NSString stringWithFormat:@"%d", key];
+            } else if (dot.location == NSNotFound || _textField.text.length <= dot.location + 2) {
+                [self.textInputDelegate insertText:[NSString stringWithFormat:@"%d", key]];
+            }
+            
+            break;
+    }
 }
 
 - (void)pressBackspaceKey {
-    [self.delegate didBackspaceKeyPressed];
+    if ([@"0." isEqualToString:_textField.text]) {
+        _textField.text = @"";
+        
+        return;
+    } else {
+        [self.textInputDelegate deleteBackward];
+    }
 }
 
 

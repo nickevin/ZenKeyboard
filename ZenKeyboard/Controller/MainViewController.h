@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController <ZenKeyboardViewDelegate, UITextFieldDelegate>
+@interface MainViewController : UIViewController <UITextFieldDelegate>
 
 @property (nonatomic, strong) ZenKeyboardView *keyboardView;
 @property (nonatomic, strong) UITextField *tfIncome;
+@property (nonatomic, strong) UITextField *tfExpence;
 
 @end
