@@ -67,10 +67,10 @@
     _tfExpence.adjustsFontSizeToFitWidth = YES;
     _tfExpence.text = @"0.00";
     
-    _keyboardView = [[ZenKeyboardView alloc] initWithFrame:CGRectMake(0, 0, 320, 216)];
+    _keyboardView = [[ZenKeyboard alloc] initWithFrame:CGRectMake(0, 0, 320, 216)];
     _keyboardView.textField = _tfIncome;
     
-    _keyboardView = [[ZenKeyboardView alloc] initWithFrame:CGRectMake(0, 0, 320, 216)];
+    _keyboardView = [[ZenKeyboard alloc] initWithFrame:CGRectMake(0, 0, 320, 216)];
     _keyboardView.textField = _tfExpence;
     
     [self.view addSubview:separatorLine];

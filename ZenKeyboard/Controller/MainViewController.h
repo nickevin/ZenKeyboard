@@ -10,7 +10,7 @@
 
 @interface MainViewController : UIViewController <UITextFieldDelegate>
 
-@property (nonatomic, strong) ZenKeyboardView *keyboardView;
+@property (nonatomic, strong) ZenKeyboard *keyboardView;
 @property (nonatomic, strong) UITextField *tfIncome;
 @property (nonatomic, strong) UITextField *tfExpence;
 

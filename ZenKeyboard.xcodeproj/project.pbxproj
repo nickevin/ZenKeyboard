@@ -14,7 +14,7 @@
 		0A39F38A165A5D970087FCB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A39F389165A5D970087FCB8 /* main.m */; };
 		0A39F38E165A5D970087FCB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A39F38D165A5D970087FCB8 /* AppDelegate.m */; };
 		0A39F397165A5D970087FCB8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A39F395165A5D970087FCB8 /* MainStoryboard.storyboard */; };
-		0AB6D347165A75D200712983 /* ZenKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6D346165A75D200712983 /* ZenKeyboardView.m */; };
+		0A975780166A24B5009AF337 /* ZenKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A97577F166A24B5009AF337 /* ZenKeyboard.m */; };
 		0AB6D34C165A78A900712983 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB6D348165A78A900712983 /* Default-568h@2x.png */; };
 		0AB6D34D165A78A900712983 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB6D349165A78A900712983 /* Default.png */; };
 		0AB6D34E165A78A900712983 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB6D34A165A78A900712983 /* Default@2x.png */; };
@@ -42,8 +42,8 @@
 		0A39F38C165A5D970087FCB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A39F38D165A5D970087FCB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0A39F396165A5D970087FCB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		0AB6D345165A75D200712983 /* ZenKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenKeyboardView.h; sourceTree = "<group>"; };
-		0AB6D346165A75D200712983 /* ZenKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenKeyboardView.m; sourceTree = "<group>"; };
+		0A97577E166A24B5009AF337 /* ZenKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenKeyboard.h; sourceTree = "<group>"; };
+		0A97577F166A24B5009AF337 /* ZenKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenKeyboard.m; sourceTree = "<group>"; };
 		0AB6D348165A78A900712983 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0AB6D349165A78A900712983 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0AB6D34A165A78A900712983 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -128,13 +128,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0AB6D344165A75D200712983 /* ZenKeyboardView */ = {
+		0A97577D166A24B5009AF337 /* ZenKeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				0AB6D345165A75D200712983 /* ZenKeyboardView.h */,
-				0AB6D346165A75D200712983 /* ZenKeyboardView.m */,
+				0A97577E166A24B5009AF337 /* ZenKeyboard.h */,
+				0A97577F166A24B5009AF337 /* ZenKeyboard.m */,
 			);
-			path = ZenKeyboardView;
+			path = ZenKeyboard;
 			sourceTree = "<group>";
 		};
 		0AD949CA165A67C100F4D7BD /* Resource */ = {
@@ -159,7 +159,7 @@
 		0ADB475E165A687100D0886B /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				0AB6D344165A75D200712983 /* ZenKeyboardView */,
+				0A97577D166A24B5009AF337 /* ZenKeyboard */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -260,7 +260,7 @@
 				0A39F38A165A5D970087FCB8 /* main.m in Sources */,
 				0A39F38E165A5D970087FCB8 /* AppDelegate.m in Sources */,
 				0AF8574D165A60B200A8E44F /* MainViewController.m in Sources */,
-				0AB6D347165A75D200712983 /* ZenKeyboardView.m in Sources */,
+				0A975780166A24B5009AF337 /* ZenKeyboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,20 +1,20 @@
 //
-//  ZenKeyboardView.m
+//  ZenKeyboard.m
 //  ZenKeyboard
 //
 //  Created by Kevin Nick on 2012-11-9.
 //  Copyright (c) 2012年 com.zen. All rights reserved.
 //
 
-#import "ZenKeyboardView.h"
+#import "ZenKeyboard.h"
 
-@interface ZenKeyboardView()
+@interface ZenKeyboard()
 
 @property (nonatomic,assign) id<UITextInput> textInputDelegate;
 
 @end;
 
-@implementation ZenKeyboardView
+@implementation ZenKeyboard
 
 - (id)initWithFrame:(CGRect)frame
 {

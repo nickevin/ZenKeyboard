@@ -1,5 +1,5 @@
 //
-//  ZenKeyboardView.h
+//  ZenKeyboard.h
 //  ZenKeyboard
 //
 //  Created by Kevin Nick on 2012-11-9.
@@ -11,14 +11,14 @@
 #define KeyboardNumericKeyWidth 108
 #define KeyboardNumericKeyHeight 53
 
-@protocol ZenKeyboardViewDelegate <NSObject>
+@protocol ZenKeyboardDelegate <NSObject>
 
 - (void)numericKeyDidPressed:(int)key;
 - (void)backspaceKeyDidPressed;
 
 @end
 
-@interface ZenKeyboardView : UIView
+@interface ZenKeyboard : UIView
 
 @property (nonatomic, assign) UITextField *textField;
 
