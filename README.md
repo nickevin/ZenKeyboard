@@ -9,14 +9,14 @@ Written by Kevin Nick(nickevin@gmail.com), November 2012.
 
 First you have to import the class:
 
-	#import "ZenKeyboardView.h"
+	#import "ZenKeyboard.h"
 	
 then simply use:
 	
 	UITextField textField = [[UITextField alloc] initWithFrame:CGRectMake(0, 0, 200, 60)];
 
-	ZenKeyboardView *keyboardView = [[ZenKeyboardView alloc] initWithFrame:CGRectMake(0, 0, 320, 216)];
-	keyboardView.textField = textField;
+	ZenKeyboard *keyboard = [[ZenKeyboard alloc] initWithFrame:CGRectMake(0, 0, 320, 216)];
+	keyboard.textField = textField;
 
   
 see the demo for more detailed examples.
