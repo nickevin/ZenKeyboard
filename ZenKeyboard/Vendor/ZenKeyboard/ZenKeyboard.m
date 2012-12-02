@@ -26,21 +26,21 @@
         
         [self addSubview:keyboardBackground];
         [self addSubview:keyboardGridLines];
-        [self addSubview:[self addNumericKeyWithTitle:@"1" frame:CGRectMake(0, 1, KeyboardNumericKeyWidth - 3, KeyboardNumericKeyHeight)]];
-        [self addSubview:[self addNumericKeyWithTitle:@"2" frame:CGRectMake(KeyboardNumericKeyWidth - 2, 1, KeyboardNumericKeyWidth, KeyboardNumericKeyHeight)]];
-        [self addSubview:[self addNumericKeyWithTitle:@"3" frame:CGRectMake(KeyboardNumericKeyWidth * 2 - 1, 1, KeyboardNumericKeyWidth - 2, KeyboardNumericKeyHeight)]];
+        [self addSubview:[self addNumericKeyWithTitle:@"1" frame:CGRectMake(0, 1, KEYBOARD_NUMERIC_KEY_WIDTH - 3, KEYBOARD_NUMERIC_KEY_HEIGHT)]];
+        [self addSubview:[self addNumericKeyWithTitle:@"2" frame:CGRectMake(KEYBOARD_NUMERIC_KEY_WIDTH - 2, 1, KEYBOARD_NUMERIC_KEY_WIDTH, KEYBOARD_NUMERIC_KEY_HEIGHT)]];
+        [self addSubview:[self addNumericKeyWithTitle:@"3" frame:CGRectMake(KEYBOARD_NUMERIC_KEY_WIDTH * 2 - 1, 1, KEYBOARD_NUMERIC_KEY_WIDTH - 2, KEYBOARD_NUMERIC_KEY_HEIGHT)]];
         
-        [self addSubview:[self addNumericKeyWithTitle:@"4" frame:CGRectMake(0, KeyboardNumericKeyHeight + 2, KeyboardNumericKeyWidth - 3, KeyboardNumericKeyHeight)]];
-        [self addSubview:[self addNumericKeyWithTitle:@"5" frame:CGRectMake(KeyboardNumericKeyWidth - 2, KeyboardNumericKeyHeight + 2, KeyboardNumericKeyWidth, KeyboardNumericKeyHeight)]];
-        [self addSubview:[self addNumericKeyWithTitle:@"6" frame:CGRectMake(KeyboardNumericKeyWidth * 2 - 1, KeyboardNumericKeyHeight + 2, KeyboardNumericKeyWidth - 3, KeyboardNumericKeyHeight)]];
+        [self addSubview:[self addNumericKeyWithTitle:@"4" frame:CGRectMake(0, KEYBOARD_NUMERIC_KEY_HEIGHT + 2, KEYBOARD_NUMERIC_KEY_WIDTH - 3, KEYBOARD_NUMERIC_KEY_HEIGHT)]];
+        [self addSubview:[self addNumericKeyWithTitle:@"5" frame:CGRectMake(KEYBOARD_NUMERIC_KEY_WIDTH - 2, KEYBOARD_NUMERIC_KEY_HEIGHT + 2, KEYBOARD_NUMERIC_KEY_WIDTH, KEYBOARD_NUMERIC_KEY_HEIGHT)]];
+        [self addSubview:[self addNumericKeyWithTitle:@"6" frame:CGRectMake(KEYBOARD_NUMERIC_KEY_WIDTH * 2 - 1, KEYBOARD_NUMERIC_KEY_HEIGHT + 2, KEYBOARD_NUMERIC_KEY_WIDTH - 3, KEYBOARD_NUMERIC_KEY_HEIGHT)]];
 
-        [self addSubview:[self addNumericKeyWithTitle:@"7" frame:CGRectMake(0, KeyboardNumericKeyHeight * 2 + 3, KeyboardNumericKeyWidth - 3, KeyboardNumericKeyHeight)]];
-        [self addSubview:[self addNumericKeyWithTitle:@"8" frame:CGRectMake(KeyboardNumericKeyWidth - 2, KeyboardNumericKeyHeight * 2 + 3, KeyboardNumericKeyWidth , KeyboardNumericKeyHeight)]];
-        [self addSubview:[self addNumericKeyWithTitle:@"9" frame:CGRectMake(KeyboardNumericKeyWidth * 2 - 1, KeyboardNumericKeyHeight * 2 + 3, KeyboardNumericKeyWidth, KeyboardNumericKeyHeight)]];
+        [self addSubview:[self addNumericKeyWithTitle:@"7" frame:CGRectMake(0, KEYBOARD_NUMERIC_KEY_HEIGHT * 2 + 3, KEYBOARD_NUMERIC_KEY_WIDTH - 3, KEYBOARD_NUMERIC_KEY_HEIGHT)]];
+        [self addSubview:[self addNumericKeyWithTitle:@"8" frame:CGRectMake(KEYBOARD_NUMERIC_KEY_WIDTH - 2, KEYBOARD_NUMERIC_KEY_HEIGHT * 2 + 3, KEYBOARD_NUMERIC_KEY_WIDTH , KEYBOARD_NUMERIC_KEY_HEIGHT)]];
+        [self addSubview:[self addNumericKeyWithTitle:@"9" frame:CGRectMake(KEYBOARD_NUMERIC_KEY_WIDTH * 2 - 1, KEYBOARD_NUMERIC_KEY_HEIGHT * 2 + 3, KEYBOARD_NUMERIC_KEY_WIDTH, KEYBOARD_NUMERIC_KEY_HEIGHT)]];
 
-        [self addSubview:[self addNumericKeyWithTitle:@"." frame:CGRectMake(0, KeyboardNumericKeyHeight * 3 + 4, KeyboardNumericKeyWidth - 3, KeyboardNumericKeyHeight)]];
-        [self addSubview:[self addNumericKeyWithTitle:@"0" frame:CGRectMake(KeyboardNumericKeyWidth - 2, KeyboardNumericKeyHeight * 3 + 4, KeyboardNumericKeyWidth, KeyboardNumericKeyHeight)]];
-        [self addSubview:[self addBackspaceKeyWithFrame:CGRectMake(KeyboardNumericKeyWidth * 2 - 1, KeyboardNumericKeyHeight * 3 + 4, KeyboardNumericKeyWidth - 3, KeyboardNumericKeyHeight)]];
+        [self addSubview:[self addNumericKeyWithTitle:@"." frame:CGRectMake(0, KEYBOARD_NUMERIC_KEY_HEIGHT * 3 + 4, KEYBOARD_NUMERIC_KEY_WIDTH - 3, KEYBOARD_NUMERIC_KEY_HEIGHT)]];
+        [self addSubview:[self addNumericKeyWithTitle:@"0" frame:CGRectMake(KEYBOARD_NUMERIC_KEY_WIDTH - 2, KEYBOARD_NUMERIC_KEY_HEIGHT * 3 + 4, KEYBOARD_NUMERIC_KEY_WIDTH, KEYBOARD_NUMERIC_KEY_HEIGHT)]];
+        [self addSubview:[self addBackspaceKeyWithFrame:CGRectMake(KEYBOARD_NUMERIC_KEY_WIDTH * 2 - 1, KEYBOARD_NUMERIC_KEY_HEIGHT * 3 + 4, KEYBOARD_NUMERIC_KEY_WIDTH - 3, KEYBOARD_NUMERIC_KEY_HEIGHT)]];
         
         [self addSubview:keyboardShadow];
     }
