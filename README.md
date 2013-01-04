@@ -1,7 +1,7 @@
 ZenKeyboard
 ===========
 
-NZKeyboard is a custom iOS numeric keyboard, it's just like Square Register app.
+ZenKeyboard is a custom iOS numeric keyboard, it's just like Square Register app.
 
 Written by Kevin Nick(nickevin@gmail.com), November 2012.
 
